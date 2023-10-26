@@ -1,7 +1,7 @@
 .form-box{
     width: 80%;
     margin: 0 auto;
-    border: #EDEDED solid 5px;
+    border: #EDEDED solid 3px;
     border-radius: 12px;
     align-items: flex-start;
     margin-bottom: 40px;
@@ -9,31 +9,30 @@
 
 .form-box .icon-hour {
     background-image: url('../../../assets/images/png/icon-hour.png');
+    background-size: 30px;
     background-repeat: no-repeat;
-    height: 70px;
+    height: 40px;
     font-family: 'Gotham-Book';
     color: var(--light-grey);
-    font-size: 25px;    
-    padding-left: 90px;
-    padding-top: 15px;
-    margin: 40px;
+    font-size: 18px;    
+    padding-left: 40px;
+    padding-top: 5px;
+    margin: 30px 30px 0 30px;
 }
 
 .form-box h2{
     font-family: 'Gotham-Light';
     color: var(--light-grey);
-    font-size: 40px;
+    font-size: 24px;
     font-weight: lighter;
-    margin: 40px;
+    margin: 0 30px 0 30px;
     border-bottom: #EDEDED solid 2px;
     padding: 15px;
-    padding-bottom: 30px;
-    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 
 .form-box .hour-options{
-    margin: 40px;
-    margin-top: 20px;
+    margin: 5px 30px 0 30px;    
     list-style: none;
     padding: 0;
 }
@@ -45,18 +44,17 @@
     color: var(--light-grey);
     font-weight: bold;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 18px;
     border-bottom: #EDEDED solid 2px;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
 }
 
 .form-box .hour-options li span input{
     border: 0px;
-    width: 25px;
-    height: 30px;
+    width: 20px;
+    height: 26px;
     vertical-align: middle;
     cursor: pointer;
-    margin-right: 10px;
 }
 
 
@@ -65,11 +63,10 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin: 40px;
-    margin-bottom: 0;
+    margin: 30px 30px 0 30px;
     font-family: 'Gotham-Light';
     color: var(--dark-grey);
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -79,15 +76,15 @@
 
 .form-box .show-closed span input{
     border: 0px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     vertical-align: middle;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .form-box .show-closed span b{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Gotham-Black';
     font-weight: bold;
 }
@@ -102,7 +99,7 @@
 .form-box .search-bottons .btn{
     width: 80%;
     font-family: 'Gotham-Black';
-    font-size: 22px;
+    font-size: 20px;
     color: var(--dark-grey); 
     text-transform: uppercase;
     cursor: pointer;

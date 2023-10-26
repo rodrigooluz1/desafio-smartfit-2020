@@ -2,9 +2,8 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 40px; 
+    margin-bottom: 30px; 
     text-align: center; 
-    margin-right: -10px; 
 }
 
 .result-list ul{
@@ -15,8 +14,15 @@
     text-align: center;
 }
 
+.result-list ul li{   
+    text-align: left;
+}
+
 
 @media(min-width: 1024px){
+    .result-list{
+        margin-right: -10px;
+    }
     .result-list ul li{
         margin: 10px;
         float: left;

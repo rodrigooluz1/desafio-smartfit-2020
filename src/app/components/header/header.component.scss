@@ -1,6 +1,6 @@
 .header-top{
     background-color: #000000;
-    min-height: 260px;
+    min-height: 220px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .header-top img{
-    width: 378px;
+    width: 278px;
 }
 
 .header-text{
@@ -21,26 +21,26 @@
 .header-text h1{
     color: var(--dark-grey);
     font-family: 'Gotham-Bold';
-    font-size: 50px;
+    font-size: 35px;
     margin: 0;
-    margin-top: 170px;
+    margin-top: 60px;
     width: 80%;
 }
 
 .header-text .line{
     background-color: var(--dark-grey);
-    width: 200px;
-    height: 20px;
-    margin-top: 60px;
-    margin-bottom: 90px;
+    width: 100px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 36px;
 }
 
 .header-text p{
     color: var(--dark-grey);
     font-family: 'Gotham-Book';
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 @media (min-width: 1024px){
@@ -51,4 +51,5 @@
     .header-top{       
         min-height: 126px;
     }
+
 }

@@ -7,16 +7,16 @@
 
         <p class="address" [innerHTML]="cardItem.content"></p>
 
-        <div class="line"></div>
+        <div class="line" *ngIf="cardItem.opened"></div>
 
-        <div class="images-caption">
+        <div class="images-caption" *ngIf="cardItem.opened">
             <img *ngIf="cardItem.mask" src="assets/images/png/{{cardItem.mask}}-mask.png" />
             <img *ngIf="cardItem.towel" src="assets/images/png/{{cardItem.towel}}-towel.png" />
             <img *ngIf="cardItem.fountain" src="assets/images/png/{{cardItem.fountain}}-fountain.png" />
             <img *ngIf="cardItem.locker_room" src="assets/images/png/{{cardItem.locker_room}}-lockerroom.png" />
         </div>
 
-        <div class="schedules">
+        <div class="schedules" *ngIf="cardItem.opened">
             <div class="schedules-item" *ngFor="let schedule of cardItem.schedules" >
                 <h4>{{schedule.weekdays}}</h4>
                 {{schedule.hour}}
