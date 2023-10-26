@@ -1,0 +1,30 @@
+<form class="form-box" [formGroup]="formGroup">
+    
+    <div class="icon-hour"> 
+            Horário
+    </div>
+
+    <h2>Qual período quer treinar?</h2>
+
+
+    <ul class="hour-options">
+        <li><span><input type="radio" name="hour" formControlName="hour" value="morning" /> Manhã </span><span>06:00 às 12:00</span></li>
+        <li><span><input type="radio" name="hour" formControlName="hour" value="afternoon" /> Tarde </span><span>12:01 às 18:00</span></li>
+        <li><span><input type="radio" name="hour" formControlName="hour" value="night" /> Noite </span><span>18:01 às 23:00</span></li>
+    </ul>
+
+
+    <div class="show-closed">
+        <span><input type="checkbox" name="showClosed" formControlName="showClosed"> Exibir unidades fechadas</span>
+        <span *ngIf="locations.length > 0">Resultados encontrados: <b>{{ locations.length }}</b></span>
+        <span *ngIf="locations.length == 0">Nenhuma unidade encontrada</span>
+    </div>
+
+
+    <div class="search-bottons">
+        <button class="btn find" (click)="onSubmit()">Encontrar unidade</button>
+        <button class="btn" (click)="onClean()">Limpar</button>
+    </div>
+
+
+</form>

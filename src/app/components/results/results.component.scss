@@ -1,0 +1,25 @@
+.result-list{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px; 
+    text-align: center; 
+    margin-right: -10px; 
+}
+
+.result-list ul{
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+@media(min-width: 1024px){
+    .result-list ul li{
+        margin: 10px;
+        float: left;
+        text-align: left;
+    }
+}

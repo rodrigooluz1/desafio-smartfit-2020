@@ -1,0 +1,38 @@
+:root {
+
+    --dark-grey: #333333;
+    --light-grey: #808080;
+    --yellow: #FFB612;
+    --red: #dc0a17;
+    --green: #2FC022;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('assets/fonts/gotham-light.woff2') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('assets/fonts/gotham-book.woff2') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('assets/fonts/gotham-bold.woff2') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('assets/fonts/gotham-black.woff2') format('truetype');
+    font-style: normal;
+}
+

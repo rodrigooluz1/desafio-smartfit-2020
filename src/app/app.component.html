@@ -1,0 +1,6 @@
+
+<header></header>
+<search-form (submitEvent)="onSubmit()"></search-form>
+<image-caption></image-caption>
+<results *ngIf="(showList | async)" [unitsList]="unitsList"></results>
+<footer></footer>

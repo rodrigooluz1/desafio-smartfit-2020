@@ -1,0 +1,21 @@
+.footer-area{
+    background-color: var(--dark-grey);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0 90px 0;
+}
+
+.footer-area img{
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.footer-area span{
+    font-family: 'Gotham-Book';
+    color:#ffffff;
+    font-size: 25px;
+}
